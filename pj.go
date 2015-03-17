@@ -31,7 +31,7 @@ Benefits
 - single point of truth for structures/tables
 - validation near the data
 - easier schema migration: start with a function that returns static testdata and change the function to query
-  tables when the schema has settled
+tables when the schema has settled
 - fast development of client and database without having to restart or recompile server
 
 Disadvantages
