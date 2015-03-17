@@ -23,7 +23,7 @@ to the client in addition to the json.
 6. The returned json may have a property "http_headers" that must be convertible to a map[string]string. If it does, the http headers
 will be set accordingly.
 
-7. Authentication and authorization will be handled by middleware surrounding the http.Handler return from pj.New
+7. Authentication and authorization will be handled by middleware surrounding the http.Handler returned from pj.New
 
 Benefits
 
