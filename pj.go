@@ -8,8 +8,8 @@ Package pj offers a very simple and thin opiniated layer over postgresql databas
 Therefor it makes several assumptions.
 
 1. Each query returns a single row and a single column that is the result of a calls of a
-   postgres function that gets one parameter that is a json string and returns a json string.
-   This is most easily achieved by using the plv8 extension to define the functions.
+postgres function that gets one parameter that is a json string and returns a json string.
+This is most easily achieved by using the plv8 extension to define the functions.
 
 2. All validation occurs inside the postgresql function.
 
