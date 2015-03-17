@@ -1,3 +1,7 @@
+// Copyright (c) 2015 Marc René Arns. All rights reserved.
+// Use of this source code is governed by a MIT
+// license that can be found in the LICENSE file.
+
 /*
 Package pj offers a very simple and thin opiniated layer over postgresql database queries.
 
@@ -36,8 +40,8 @@ Disadvantages
 - need pg users for access roles
 - need different connections for different access roles
 - learn postgres
-*/
 
+*/
 package pj
 
 import (
